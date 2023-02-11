@@ -39,3 +39,6 @@ img {
 .otherfilters2{
     filter: invert(100%);
 }
+.body{
+    background: linear-gradient(90deg, rgb(35, 106, 121), rgb(47, 86, 141));
+}
