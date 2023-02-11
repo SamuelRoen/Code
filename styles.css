@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    background-color: aquamarine;
+}
+img {
+        width: 50%;
+        border: solid 2px rgb(35, 0, 141);
+        border-radius: 10px;
+        margin: 100px;
+        padding: 10px;
+    }
+.center {
+    text-align: center;
+}
+.second_image{
+    padding-top: 100px;
+    background-color: bisque;
+    margin: 25px;
+}
+.third_image{
+    transform: rotate(45deg);
+}
+.Rotated{
+    transform: rotate(40deg);
+}
+.centered{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.filtered{
+    filter: blur(2px);
+}
+.otherfilters1{
+    <!-- This filter is not working. Find out how -->
+    filter: drop-shadow(20%);
+}
+.otherfilters2{
+    filter: invert(100%);
+}
