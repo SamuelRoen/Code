@@ -3,5 +3,11 @@
     background-color: bisque;
 }
 .main{
-    
+    background-color: rgb(204, 171, 234);
+    width: 50%;
+}
+img{
+    border-radius: 10px;
+    border: solid #ffd7ea;
+    width: 50%;
 }
