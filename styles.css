@@ -42,3 +42,6 @@ img {
 .body{
     background: linear-gradient(90deg, rgb(35, 106, 121), rgb(47, 86, 141));
 }
+nav{
+    background-color: antiquewhite;
+}
