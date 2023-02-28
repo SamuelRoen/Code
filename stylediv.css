@@ -6,8 +6,19 @@
     background-color: rgb(204, 171, 234);
     width: 50%;
 }
+.right{
+    background-color: blue;
+    align-content: end;
+    width: 50%;
+
+}
 img{
     border-radius: 10px;
     border: solid #ffd7ea;
     width: 50%;
+    display: block;
+}
+h1{
+    display: block;
+    border: solid 2px;
 }
