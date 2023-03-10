@@ -1,8 +1,16 @@
 .container{
-    border: solid;
+    background-color: antiquewhite;
+    width: ;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+    
+    flex-wrap: wrap;
+    align-content: center;
 }
-.item{
-    border: solid white;
+img{
+    border: solid darkblue;
 
 }
