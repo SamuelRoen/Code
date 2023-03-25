@@ -1,7 +1,7 @@
 function dateFunc() {
         const date = new Date();
         let day=date.getDate();
-        let month=date.getMonth();
+        let month=date.getMonth()+1;
         let year=date.getFullYear();
         let currentDate=day + "/" + month + "/" + year;
         document.getElementById('date').innerHTML= "Today is: " + currentDate;
@@ -31,5 +31,5 @@ console.log(diffInDays);
 
 
         document.getElementById('remain').innerHTML=
-        diffInDays + " days to your trip" + "<br>";
+        diffInDays + " days to your trip to USA" + "<br>";
 }
