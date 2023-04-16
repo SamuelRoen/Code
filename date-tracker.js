@@ -4,7 +4,14 @@ function dateFunc() {
         let month=date.getMonth()+1;
         let year=date.getFullYear();
         let currentDate=day + "/" + month + "/" + year;
-        document.getElementById('date').innerHTML= "Today is: " + currentDate;
+
+        const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const today = new Date();
+        const dayOfWeek = daysOfWeek[today.getDay()];
+        console.log(dayOfWeek); // Output: a string representing the day of the week
+
+
+        document.getElementById('date').innerHTML= `Today is: ${dayOfWeek}, ${currentDate}`;
 }
 
 function remainingFunc(){
@@ -26,10 +33,7 @@ var diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
 
 // output the difference in days
 console.log(diffInDays);
-
-
-
-
         document.getElementById('remain').innerHTML=
         diffInDays + " days to your trip to USA" + "<br>";
 }
+
