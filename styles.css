@@ -2,13 +2,18 @@ h1 {
     text-align: center;
     background-color: aquamarine;
 }
-img {
+/*img {
         width: 50%;
         border: solid 2px rgb(35, 0, 141);
         border-radius: 10px;
         margin: 100px;
         padding: 10px;
-    }
+    } */
+
+img{
+    width: 400px;
+    margin: auto;
+}
 .center {
     text-align: center;
 }
@@ -51,4 +56,9 @@ h2{
 button {
     display: block;
     margin: 0 auto;
+}
+p{
+    text-align: center;
+    color: rgb(117, 121, 4);
+    font-size: 72pt;
 }

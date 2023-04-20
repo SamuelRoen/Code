@@ -34,6 +34,6 @@ var diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
 // output the difference in days
 console.log(diffInDays);
         document.getElementById('remain').innerHTML=
-        diffInDays + " days to your trip to USA" + "<br>";
+        diffInDays + " days!" + "<br>";
 }
 
