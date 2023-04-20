@@ -1,6 +1,5 @@
 .container{
-    background-color: antiquewhite;
-    width: ;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
