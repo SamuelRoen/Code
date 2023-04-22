@@ -4,35 +4,33 @@ function dateFunc() {
         let month=date.getMonth()+1;
         let year=date.getFullYear();
         let currentDate=day + "/" + month + "/" + year;
-
         const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
         const today = new Date();
         const dayOfWeek = daysOfWeek[today.getDay()];
-        console.log(dayOfWeek); // Output: a string representing the day of the week
-
-
-        document.getElementById('date').innerHTML= `Today is: ${dayOfWeek}, ${currentDate}`;
+        // console.log(dayOfWeek); // Output: a string representing the day of the week
+        document.getElementById('dato').innerHTML= `Today is: ${dayOfWeek}, ${currentDate}`;
 }
+        
 
-function remainingFunc(){
+function remainingFunc() {
         // create a new date object
-var myDate = new Date();
+        var myDate = new Date();
 
-// set the specific date to subtract
-var specificDate = new Date('June 5, 2023');
+        // set the specific date to subtract
+        var specificDate = new Date('June 5, 2023');
 
-// get the time value in milliseconds for both dates
-var myDateTime = myDate.getTime();
-var specificDateTime = specificDate.getTime();
+        // get the time value in milliseconds for both dates
+        var myDateTime = myDate.getTime();
+        var specificDateTime = specificDate.getTime();
 
-// calculate the difference in milliseconds
-var diffInMs = specificDateTime - myDateTime;
+        // calculate the difference in milliseconds
+        var diffInMs = specificDateTime - myDateTime;
 
-// convert milliseconds to days
-var diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+        // convert milliseconds to days
+        var diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
 
-// output the difference in days
-console.log(diffInDays);
+        // output the difference in days
+        console.log(diffInDays);
         document.getElementById('remain').innerHTML=
         diffInDays + " days!" + "<br>";
 }
