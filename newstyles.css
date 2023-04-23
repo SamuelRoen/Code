@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+/* Center the countdown timer on the page */
+#countdown-timer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(216, 211, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5rem;
+}

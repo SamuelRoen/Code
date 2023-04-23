@@ -47,3 +47,12 @@ function remainingFunc() {
         diffInDays + " days!" + "<br>";
 }
 
+const animatedBtn = document.getElementById('animated-btn');
+
+animatedBtn.addEventListener('mouseover', () => {
+  animatedBtn.style.animation = 'move-away 0.5s forwards';
+});
+
+animatedBtn.addEventListener('mouseout', () => {
+  animatedBtn.style.animation = 'move-back 0.5s forwards';
+});

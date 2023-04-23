@@ -53,10 +53,7 @@ nav{
 h2{
     text-align: right;
 }
-button {
-    display: block;
-    margin: 0 auto;
-}
+
 p{
     text-align: center;
     color: rgb(171, 173, 95);
@@ -67,3 +64,33 @@ p{
     font-weight: bolder;
     font-size: 100pt;
 }
+#animated-btn {
+    display: block;
+  margin: 0 auto;
+
+    position: relative;
+    animation: move-away 0.5s forwards;
+  }
+  
+  @keyframes move-away {
+    from {
+      left: 0;
+    }
+    to {
+      left: 50px;
+    }
+  }
+  
+  #animated-btn:hover {
+    animation: move-back 0.5s forwards;
+  }
+  
+  @keyframes move-back {
+    from {
+      left: 50px;
+    }
+    to {
+      left: 0;
+    }
+  }
+  
