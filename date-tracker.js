@@ -1,4 +1,3 @@
-/*
 function dateFunc() {
         const date = new Date();
         let day=date.getDate();
@@ -9,9 +8,10 @@ function dateFunc() {
         const today = new Date();
         const dayOfWeek = daysOfWeek[today.getDay()];
         console.log(dayOfWeek); // Output: a string representing the day of the week
-        //document.getElementById('dato').innerHTML= `Today is: ${dayOfWeek}, ${currentDate}`;
-} */
-
+        document.getElementById('dato').innerHTML= `${dayOfWeek}, ${currentDate}`;
+} 
+dateFunc();
+/*
 const date = new Date();
 let day=date.getDate();
 let month=date.getMonth()+1;
@@ -22,6 +22,7 @@ const today = new Date();
 const dayOfWeek = daysOfWeek[today.getDay()];
 
 document.getElementById('dato').innerHTML= `Today is: ${dayOfWeek}, ${currentDate}`;
+*/
 
 function remainingFunc() {
         // create a new date object
