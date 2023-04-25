@@ -4,14 +4,17 @@ body{
 /* Center the countdown timer on the page */
 #countdown-timer {
     font-family: Arial, sans-serif;
-    color: rgb(216, 211, 206);
+    color: #d8d3ce;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
     font-size: 4rem;
 }
-h1{
+p{
+    
     text-align: center;
-    color: azure;
+    color: #d8d3ce;
+    font-family: Arial, sans-serif;
+    font-size: 4rem;
 }
